@@ -1,0 +1,43 @@
+body{
+    font-family: 'Arial Narrow';
+    background-color: #F2ECE9;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #A6A5A4;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #403F3D;
+    color: white;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+}
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}

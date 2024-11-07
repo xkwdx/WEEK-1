@@ -1,0 +1,124 @@
+body{
+    font-family: 'Arial Narrow';
+    background-color: #F2ECE9;
+    text-align: center;
+    font-size: 25px;
+    float: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #A6A5A4;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #403F3D;
+    color: white;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,latin-ext);
+
+#tabelka {display: table; margin: 0 auto;}
+.produkt {width: 200px; float: left; background: #eee; border: 1px solid #fff;}
+.produkt .nazwa > h3 {
+font-family: 'Ubuntu Condensed';
+background: #2a2a2a;
+padding: 10px;
+text-align: center;
+color: #fff;
+text-shadow: 0 0 3px #000;
+}
+
+.produkt .cena {
+width: 100px;
+height: 100px;
+border-radius: 60px;
+background: #fff;
+text-align: center;
+line-height: 100px;
+border: 10px solid silver;
+box-shadow: 3px 3px 5px gray inset, 0 0 1px black;
+font-family: 'Ubuntu Condensed';
+font-size: 2em;
+margin: 0 auto;
+}
+
+.produkt .parametry {
+list-style: none; 
+padding: 0; 
+margin: 20px 0 20px;
+border-top: 1px dashed silver;
+border-bottom: 1px dashed silver;
+font-family: 'Ubuntu Condensed';
+color: #000;
+font-size: 0.9em;
+text-align: center;
+}
+.produkt .parametry li {padding: 5px;}
+.produkt .parametry li:nth-child(odd) {
+background: silver;
+}
+.produkt .parametry li:nth-child(even) {
+background: #eee;
+}
+
+.produkt .kup {
+background: #6bc900;
+background: -moz-linear-gradient(top, #6bc900 0%, #46af00 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6bc900), color-stop(100%,#46af00));
+background: -webkit-linear-gradient(top, #6bc900 0%,#46af00 100%);
+background: -o-linear-gradient(top, #6bc900 0%,#46af00 100%);
+background: -ms-linear-gradient(top, #6bc900 0%,#46af00 100%);
+background: linear-gradient(to bottom, #6bc900 0%,#46af00 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bc900', endColorstr='#46af00',GradientType=0 );
+
+display: table;
+margin: 0 auto;
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid gray;
+font-family: 'Ubuntu Condensed';
+cursor: pointer;
+box-shadow: 0 0 1px black;
+color: #fff;
+text-shadow: 0 0 3px #000;
+border: 4px solid #fff;
+}
+
+.produkt .kup:hover {
+background: #299a0b;
+background: -moz-linear-gradient(top, #299a0b 0%, #299a0b 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#299a0b), color-stop(100%,#299a0b));
+background: -webkit-linear-gradient(top, #299a0b 0%,#299a0b 100%);
+background: -o-linear-gradient(top, #299a0b 0%,#299a0b 100%);
+background: -ms-linear-gradient(top, #299a0b 0%,#299a0b 100%);
+background: linear-gradient(to bottom, #299a0b 0%,#299a0b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=0 );
+}
+
+.produkt:hover {background: #111; box-shadow: 0 0 50px #000;}
+.produkt:hover .parametry li:nth-child(odd) {
+background: black;
+}
+.produkt:hover .parametry li:nth-child(even) {
+background: #111;
+}
+.produkt:hover .parametry {color: silver;}
+.produkt:hover h3 {background: #eee; color: #000; text-shadow: 0 0 3px silver;}
+
+.produkt, .produkt * {-moz-transition: 0.1s ease-in; -webkit-transition: 0.1s ease-in; -o-transition: 0.1s ease-in; transition: 0.1s ease-in;}

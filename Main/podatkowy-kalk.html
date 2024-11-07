@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/podkalk.css">
+    <title>Week 1</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="main.html">Home</a>
+        <a class="active" href="podatkowy-kalk.html">Kalkulator Podatkowy</a>
+        <a href="prowizyjny-kalk.html">Kalkulator Prowizyjny</a>
+        <a href="produkty.html">Produkty</a>
+        <a href="studiogier.html">Studio gier</a>
+        <a href="vapoyreon.html">Vapoyreon</a>
+        <a href="pokemony.html">Pokemony</a>
+        <a href="animacja.html">Animacja</a>
+    </div>
+    <div id="wrapper">
+        <h3>Kalkulator netto/brutto</h3>
+     
+        <div class="input-wrapper">
+           <input type="text" id="value" />
+           <div class="error" id="value-error"></div>
+        </div>
+        <div class="input-wrapper">
+           <select id="dir">
+              <option value="">Wybierz działanie</option>
+              <option value="netto-brutto">Z netto na brutto</option>
+              <option value="brutto-netto">Z brutto na netto</option>
+           </select>
+        </div>
+        <div class="input-wrapper">
+           to <span id="result">-</span>
+        </div>
+        <script src="js/podkalk.js"></script>
+     </div>
+</body>
+</html>

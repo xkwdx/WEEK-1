@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/prowkalk.css">
+    <title>Week 1</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="main.html">Home</a>
+        <a href="podatkowy-kalk.html">Kalkulator Podatkowy</a>
+        <a class="active" href="prowizyjny-kalk.html">Kalkulator Prowizyjny</a>
+        <a href="produkty.html">Produkty</a>
+        <a href="studiogier.html">Studio gier</a>
+        <a href="vapoyreon.html">Vapoyreon</a>
+        <a href="pokemony.html">Pokemony</a>
+        <a href="animacja.html">Animacja</a>
+</div>
+    <h1>Kalkulator Prowizyjny</h1>
+        <label for="sprzedaz">Wartość sprzedaży (w zł):</label>
+        <input type="number" id="sprzedaz" placeholder="Wprowadź wartość" required>
+
+        <label for="marza">Marża (%):</label>
+        <input type="number" id="marza" placeholder="Wprowadź marżę" required>
+
+    <button onclick="oblicz()">Oblicz</button>
+
+    <div class="result" id="wynik"></div>
+    <script src="js/prowkalk.js"></script>
+</body>
+</html>
